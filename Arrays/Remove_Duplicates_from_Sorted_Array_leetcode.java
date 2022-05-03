@@ -12,7 +12,7 @@ side and thats what we want.
                 nums[i++] = n;
         }
         return i;
-    }
+    }l
 
 //Time complexity: O(N)
 //Space Complexity: O(1)
