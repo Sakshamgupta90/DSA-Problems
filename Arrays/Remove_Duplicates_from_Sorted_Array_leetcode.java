@@ -1,5 +1,7 @@
 /* Method: Here we will traverse through the whole given array, but simultaneously keep the pointer of the previous index which is stored.
-As we traverse through the arrray, whenever we came across a new integer will compare it with the previous one if both of them are different then will store the new integer in new place and update the pointer. Once the the traversal is complete will have all the unique integer at left side and thats what we want.
+As we traverse through the arrray, whenever we came across a new integer will compare it with the previous one if both of them are different
+then will store the new integer in new place and update the pointer. Once the the traversal is complete will have all the unique integer at left
+side and thats what we want.
 */
 
 //code:
