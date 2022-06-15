@@ -1,0 +1,1 @@
+// Approach: We will use two pointers fast and slow. We will keep increasing slow pointer by 1 and fast pointer by two steps untill our fast pointer is not equalls to null and fast.next not equals to null. When this condition gets failed then our prev pointer will be at the value which is the middle of the linkedlist.
