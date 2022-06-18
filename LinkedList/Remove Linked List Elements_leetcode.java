@@ -1,4 +1,5 @@
-/* method: we will create a dummy listnode and we will linked it with the head. We will iterate through our list and if get the same value as that of val(given) then we will linked it will curr.next. */
+/* method: we will create a dummy listnode and we will linked it with the head. We will iterate through our list and if get the same value as that of 
+value(given in the question) then we will linked it will curr.next. */
 
 //code:
  public ListNode removeElements(ListNode head, int val) {
