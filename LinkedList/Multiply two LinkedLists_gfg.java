@@ -16,7 +16,7 @@ public long multiplyTwoLists(Node l1,Node l2){
         }
         
         return (num1*num2)%mod;
-   }
+}
 
 //Time complexity: O(N)
 //Space complexity: O(1)
