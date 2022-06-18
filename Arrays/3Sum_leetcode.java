@@ -1,7 +1,7 @@
 //Approach 1 (BRUTE FORCE)
 
-/* method: The first approach that comes in the mind is iterating through the array three times. and we will calculate the sum of a[i] + a[j] + a[k], if the sum is 0
-then we will add it in our arraylist.*/
+/* method: The first approach that comes in the mind is iterating through the array three times. and we will calculate the sum of a[i] + a[j] + a[k], if
+the sum is 0 then we will add it in our arraylist.*/
 
 //code:
 
@@ -32,13 +32,16 @@ public List<List<Integer>> threeSum(int[] nums) {
 
 //Approach 2: (OPTIMAL)
 
-/*method: We could make use of the fact that we just need to return the triplets and thus could possibly sort the array. This would help us use a modified two-pointer approach to this problem.
+/*method: We could make use of the fact that we just need to return the triplets and thus could possibly sort the array. This would help us use a 
+modified two-pointer approach to this problem.
 
 Eg) Input :  [-1,0,1,2,-1,-4]
 
 After sorting, our array is : [-4,-1,-1,0,1,2]
 
-Notice, we are fixing the i pointer and then applying the traditional 2 pointer approach to check whether the sum of three numbers equals zero. If the sum is less than zero, it indicates our sum is probably too less and we need to increment our j pointer to get a larger sum. On the other hand, if our sum is more than zero, it indicates our sum is probably too large and we need to decrement the k pointer to reduce the sum and bring it closer to zero.*/
+Notice, we are fixing the i pointer and then applying the traditional 2 pointer approach to check whether the sum of three numbers equals zero. If the sum 
+is less than zero, it indicates our sum is probably too less and we need to increment our j pointer to get a larger sum. On the other hand, if our sum is 
+more than zero, it indicates our sum is probably too large and we need to decrement the k pointer to reduce the sum and bring it closer to zero.*/
 
 //code:
 public List<List<Integer>> threeSum(int[] num) {
