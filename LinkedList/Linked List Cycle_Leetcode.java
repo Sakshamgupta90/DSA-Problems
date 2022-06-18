@@ -1,4 +1,5 @@
-// method: we will use two pointers slow and fast. we will increase two pointer by 1 and fast ptr by 2 and when slow and fast ptr are equal then we can say that there is a cycle present in the given linked list.
+/* method: we will use two pointers slow and fast. we will increase two pointer by 1 and fast ptr by 2 and when slow and fast ptr are equal then we can
+say that there is a cycle present in the given linked list.*/
 
 //code:
 public boolean hasCycle(ListNode head) {
