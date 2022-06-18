@@ -1,4 +1,5 @@
-/* method: we will create three dummy nodes 0,1 and 2. and we will iterate through our given list. and whenever we get any 0, 1 and 2 then we will linked them with their respective dummy nodes respectively and in last we will linked the dummy nodes together to get the sorted list.*/
+/* method: we will create three dummy nodes 0,1 and 2. and we will iterate through our given list. and whenever we get any 0, 1 and 2 then we will linked 
+them with their respective dummy nodes respectively and in last we will linked the dummy nodes together to get the sorted list.*/
 
 //code:
 static Node segregate(Node head)
