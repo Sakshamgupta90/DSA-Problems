@@ -1,4 +1,6 @@
-/* Approach: The intuition is that we will first find the middle of the linkedlist and after finding the middle of the linkedlist we will reverse that        middle linkedlist. Now we will keep two pointers i.e. c1 at head and c2 at mid. now we will iterate till c2 != null. and we will start connecting c1.next with c2 and c2 with c1.next and increase the pointers. */
+/* Approach: The intuition is that we will first find the middle of the linkedlist and after finding the middle of the linkedlist we will reverse that
+middle linkedlist. Now we will keep two pointers i.e. c1 at head and c2 at mid. now we will iterate till c2 != null. and we will start connecting c1.next
+with c2 and c2 with c1.next and increase the pointers. */
 
 //Code:
 
