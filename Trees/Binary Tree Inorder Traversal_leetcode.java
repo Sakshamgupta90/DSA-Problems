@@ -55,3 +55,19 @@ print/add(root.val)
 func(root.right)
 
 But the time complexity will be O(H) where H is the height of the binary tree */
+
+//code:
+ public static void inorderTraversal(TreeNode root, List<Integer> ans){
+        if(root == null)
+            return;
+        
+        inorderTraversal(root.left, ans);
+        ans.add(root.val);
+        inorderTraversal(root.right, ans);
+    }
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> ans = new ArrayList<>();
+        inorderTraversal(root, ans);
+        return ans;
+        
+    }
